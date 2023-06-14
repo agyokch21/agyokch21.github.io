@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#space{
+    background-image: url(../img/1.png);
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sun{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+#mercury{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    animation: molorak 30s infinite linear;
+}
+
+#venus{
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    animation: molorak 40s infinite linear;
+}
+
+#earth{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    animation: molorak 50s infinite linear;
+}
+
+#mars{
+    width: 600px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    animation: molorak 60s infinite linear;
+}
+
+#jupiter{
+    width: 700px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    animation: molorak 70s infinite linear;
+}
+
+#saturn{
+    width: 800px;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    animation: molorak 80s infinite linear;
+}
+
+#uranus{
+    width: 900px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    animation: molorak 90s infinite linear;
+}
+
+#neptun{
+    width: 1000px;
+    height: 450px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    animation: molorak 100s infinite linear;
+}
+
+@keyframes molorak{
+    100%{
+        transform: rotate(360deg);
+}
+}
